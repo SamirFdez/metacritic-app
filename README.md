@@ -39,7 +39,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Starts the app in development mode. Open [http://localhost:19002](http://localhost:19002) to view the Expo manager in your browser. You can use an emulator, a simulator, or your physical device to test the app.
+Starts the app in development mode. Open [http://localhost:8081](http://localhost:8081) to view the Expo manager in your browser. You can use an emulator, a simulator, or your physical device to test the app.
 
 ### `npm run android`
 
@@ -68,12 +68,13 @@ metacritic-app/
 └── README.md         # This file
 ```
 
-## Stacks 
+## Stacks
 
 - React Native
 - Expo
 - TypeScript
 - React Navigation
+- MetacriticApi
 
 ## Contribution
 
