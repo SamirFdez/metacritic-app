@@ -17,7 +17,7 @@ export async function getBestGames(): Promise<Game[]> {
         item;
       const { score } = criticScoreSummary;
   
-      // crea la imagen
+      // create the image
       const { bucketType, bucketPath } = image;
       const img = `https://www.metacritic.com/a/img/${bucketType}${bucketPath}`;
   
