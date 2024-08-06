@@ -57,15 +57,21 @@ Starts the application in web mode.
 
 ```plaintext
 metacritic-app/
-├── assets/           # Images, fonts, and other static assets
-├── components/       # Reusable components
-├── screens/          # Application screens
-├── navigation/       # Navigation configuration
-├── App.tsx           # Main application file
-├── app.json          # Expo configuration
-├── package.json      # Project dependencies and scripts
-├── tsconfig.json     # TypeScript configuration
-└── README.md         # This file
+├── expo/               # Expo-specific configurations and dependencies
+├── node_modules/       # Installed dependencies and modules via npm or yarn
+├── src/                # Application source code
+│   ├── assets/         # Images, fonts, and other static assets
+│   ├── components/     # Reusable components
+│   ├── interface/      # TypeScript interfaces and types
+│   ├── lib/            # Utility functions and libraries
+├── .gitignore          # Files and folders to be ignored by Git
+├── App.tsx             # Main application file
+├── app.json            # Expo configuration
+├── package.json        # Project dependencies and scripts
+├── package-lock.json   # Exact versions of installed dependencies
+├── babel.config.js     # Babel configuration
+├── tsconfig.json       # TypeScript configuration
+└── README.md           # Project documentation file
 ```
 
 ## Stacks
