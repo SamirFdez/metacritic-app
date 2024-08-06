@@ -8,38 +8,38 @@ export interface Game {
 }
 
 export interface GameItem {
-    description: string;
-    slug: string;
-    releaseDate: string;
-    image: {
-      bucketType: string;
-      bucketPath: string;
-    };
-    criticScoreSummary: {
-      score: number;
-    };
-    title: string;
-  }
-
-  export interface GameDetails {
-    img: string;
-    title: string;
-    slug: string;
-    description: string;
-    score: number;
-    reviews: Review[];
-  }
-
-  export interface Image {
-    typeName: string;
+  description: string;
+  slug: string;
+  releaseDate: string;
+  image: {
     bucketType: string;
     bucketPath: string;
-  }
-  
-  export interface Review {
-    quote: string;
+  };
+  criticScoreSummary: {
     score: number;
-    date: string;
-    publicationName: string;
-    author: string;
-  }
+  };
+  title: string;
+}
+
+export interface GameDetails {
+  img: string;
+  title: string;
+  slug: string;
+  description: string;
+  score: number;
+  reviews: Review[];
+}
+
+export interface Image {
+  typeName: string;
+  bucketType: string;
+  bucketPath: string;
+}
+
+export interface Review {
+  quote: string;
+  score: number;
+  date: string;
+  publicationName: string;
+  author: string;
+}
