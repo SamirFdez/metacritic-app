@@ -79,7 +79,6 @@ metacritic-app/
 - React Native
 - Expo
 - TypeScript
-- React Navigation
 - MetacriticApi
 
 ## Contribution
